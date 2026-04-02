@@ -180,4 +180,83 @@ export const directoryEntries: DirectoryEntry[] = [
     featured: true,
     imagePlaceholder: "#C77DFF",
   },
+
+  // ── Volunteer opportunities sourced from "MENA-Related Volunteer Opportunities
+  //    in the San Francisco Bay Area" (April 2026) ──────────────────────────────
+
+  {
+    id: "13",
+    title: "Jewish Family & Community Services East Bay (JFCS East Bay)",
+    description:
+      "Refugee and immigrant services organization serving the East Bay, including Afghan and MENA newcomers. Volunteer roles include ESL tutoring, pro bono asylum support, career coaching, housing outreach, transportation, and translation/interpretation (Dari/Farsi listed among service languages).",
+    category: "community-org",
+    focus: ["community", "health", "mentorship"],
+    tags: ["refugee resettlement", "East Bay", "Afghan", "ESL", "asylum", "translation", "Dari", "Farsi", "volunteer"],
+    city: "Oakland",
+    affiliation: "community",
+    audience: ["community", "all"],
+    website: "https://jfcs-eastbay.org/get-involved/volunteer-opportunities/",
+    featured: false,
+    imagePlaceholder: "#2563EB",
+  },
+  {
+    id: "14",
+    title: "International Rescue Committee (IRC) — Oakland",
+    description:
+      "IRC Oakland runs an explicit Afghan Program with volunteer and intern opportunities. Roles include Afghan Program Support (Dari/Pashto helpful) and general refugee resettlement support for MENA and other newcomer communities.",
+    category: "community-org",
+    focus: ["community", "advocacy"],
+    tags: ["IRC", "Afghan", "refugee", "East Bay", "Dari", "Pashto", "resettlement", "volunteer"],
+    city: "Oakland",
+    affiliation: "community",
+    audience: ["community", "all"],
+    website: "https://www.rescue.org/volunteer-opportunities/oakland-ca",
+    featured: false,
+    imagePlaceholder: "#0369A1",
+  },
+  {
+    id: "15",
+    title: "International Rescue Committee (IRC) — San Jose",
+    description:
+      "IRC San Jose offers structured volunteer and intern opportunities in youth tutoring, housing support, immigration services, digital literacy, employment coaching, and the BRIDGE youth mentoring program — all serving refugee and MENA newcomer communities in the South Bay.",
+    category: "community-org",
+    focus: ["community", "health", "mentorship"],
+    tags: ["IRC", "refugee", "South Bay", "tutoring", "immigration", "housing", "youth", "volunteer"],
+    city: "San Jose",
+    affiliation: "community",
+    audience: ["community", "all"],
+    website: "https://www.rescue.org/se/volunteer-opportunities/san-jose-ca",
+    featured: false,
+    imagePlaceholder: "#075985",
+  },
+  {
+    id: "16",
+    title: "Respond Crisis Translation",
+    description:
+      "Volunteer-powered translation and interpretation organization supporting asylum seekers, refugees, and immigrants. Seeks Arabic, Dari, Farsi, Pashto, and other language volunteers for crisis interpretation, document translation, and pro bono language access work.",
+    category: "advocacy",
+    focus: ["advocacy", "community", "health"],
+    tags: ["translation", "interpretation", "Arabic", "Dari", "Farsi", "Pashto", "asylum", "language access", "remote", "Bay Area"],
+    city: "San Francisco",
+    affiliation: "community",
+    audience: ["community", "all"],
+    website: "https://respondcrisistranslation.org/en/get-involved",
+    featured: true,
+    imagePlaceholder: "#7C3AED",
+  },
+  {
+    id: "17",
+    title: "Alameda County Newcomers Welcome — Volunteer & Resource Directory",
+    description:
+      "County-maintained directory of volunteer and donation opportunities supporting newcomers — including Afghan, Arab, and MENA immigrant families — across Alameda County. A hub for finding vetted resettlement, legal, tutoring, and housing support roles.",
+    category: "community-org",
+    focus: ["community", "advocacy"],
+    tags: ["Alameda County", "newcomers", "refugees", "Afghan", "Arab", "directory", "East Bay", "volunteer"],
+    city: "Oakland",
+    affiliation: "community",
+    audience: ["community", "all"],
+    website: "https://newcomerswelcome.acgov.org/resource-directory/ncw-category/volunteer-donation-opportunities/",
+    featured: false,
+    imagePlaceholder: "#065F46",
+  },
 ];
