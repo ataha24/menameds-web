@@ -19,7 +19,7 @@ export default function FeaturedDirectory() {
           />
           <Link
             href="/directory"
-            className="shrink-0 inline-flex items-center gap-1.5 text-sm font-semibold text-teal-600 hover:text-teal-800 transition-colors whitespace-nowrap"
+            className="shrink-0 inline-flex items-center gap-1.5 text-sm font-semibold text-cardinal-600 hover:text-cardinal-800 transition-colors whitespace-nowrap"
           >
             View full directory <ArrowRight size={14} />
           </Link>

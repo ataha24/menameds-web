@@ -14,7 +14,7 @@ export default function HeroSection() {
       {/* Geometric background */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         {/* Radial glow */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-teal-500/10 rounded-full blur-3xl" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-cardinal-500/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-[600px] h-[400px] bg-amber-500/8 rounded-full blur-3xl" />
         {/* Grid */}
         <div
@@ -36,10 +36,10 @@ export default function HeroSection() {
             transition={{ duration: 0.5 }}
             className="flex items-center gap-3 mb-8"
           >
-            <div className="relative w-8 h-8 rounded-full overflow-hidden ring-2 ring-teal-400/30">
+            <div className="relative w-8 h-8 rounded-full overflow-hidden ring-2 ring-cardinal-400/30">
               <Image src="/logo.png" alt="MENAMeds" fill className="object-cover" sizes="32px" />
             </div>
-            <span className="text-xs font-semibold uppercase tracking-widest text-teal-400">
+            <span className="text-xs font-semibold uppercase tracking-widest text-cardinal-400">
               Part of SUMMA · Stanford Medicine
             </span>
           </motion.div>
@@ -52,7 +52,7 @@ export default function HeroSection() {
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight"
           >
             Building community for{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cardinal-400 to-cardinal-300">
               MENA medicine
             </span>{" "}
             at Stanford.
@@ -77,7 +77,7 @@ export default function HeroSection() {
           >
             <Link
               href="/directory"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-teal-500 text-white font-semibold text-sm hover:bg-teal-400 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-cardinal-500 text-white font-semibold text-sm hover:bg-cardinal-400 transition-colors"
             >
               Explore Directory <ArrowRight size={15} />
             </Link>

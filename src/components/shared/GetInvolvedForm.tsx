@@ -18,7 +18,7 @@ export default function GetInvolvedForm() {
               id="gi-name"
               type="text"
               autoComplete="name"
-              className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+              className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors"
               placeholder="Your name"
             />
           </div>
@@ -30,7 +30,7 @@ export default function GetInvolvedForm() {
               id="gi-email"
               type="email"
               autoComplete="email"
-              className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+              className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors"
               placeholder="you@email.com"
             />
           </div>
@@ -41,7 +41,7 @@ export default function GetInvolvedForm() {
           </label>
           <select
             id="gi-role"
-            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors bg-white"
+            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors bg-white"
           >
             <option value="">Select one</option>
             <option>Volunteer at events</option>
@@ -59,7 +59,7 @@ export default function GetInvolvedForm() {
           <input
             id="gi-affiliation"
             type="text"
-            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors"
             placeholder="e.g. Stanford MS2, Community physician, Nonprofit director"
           />
         </div>
@@ -70,20 +70,20 @@ export default function GetInvolvedForm() {
           <textarea
             id="gi-message"
             rows={3}
-            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none"
+            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors resize-none"
             placeholder="Tell us about yourself, your organization, or what you'd like to contribute."
           />
         </div>
         <button
           type="submit"
-          className="w-full py-3 rounded-lg bg-teal-600 text-white font-semibold text-sm hover:bg-teal-700 transition-colors"
+          className="w-full py-3 rounded-lg bg-cardinal-600 text-white font-semibold text-sm hover:bg-cardinal-700 transition-colors"
         >
           Submit
         </button>
         <p className="text-xs text-slate-400 text-center">
           {/* TODO: Wire up form submission — see /api/get-involved route or use a form service */}
           We&apos;ll follow up within a few days. Questions? Email{" "}
-          <a href="mailto:menameds@stanford.edu" className="text-teal-600 hover:underline">
+          <a href="mailto:menameds@stanford.edu" className="text-cardinal-600 hover:underline">
             menameds@stanford.edu
           </a>
         </p>

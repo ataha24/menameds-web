@@ -17,7 +17,7 @@ export default function ContactPage() {
       <div className="bg-slate-900 py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <p className="text-xs font-semibold uppercase tracking-widest text-teal-400 mb-3">
+            <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-400 mb-3">
               Contact
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight">
@@ -36,10 +36,10 @@ export default function ContactPage() {
               <div className="space-y-4 text-sm">
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="flex items-center gap-3 text-slate-600 hover:text-teal-600 transition-colors group"
+                  className="flex items-center gap-3 text-slate-600 hover:text-cardinal-600 transition-colors group"
                 >
-                  <span className="w-8 h-8 rounded-lg bg-slate-100 group-hover:bg-teal-50 flex items-center justify-center transition-colors">
-                    <Mail size={14} className="text-slate-500 group-hover:text-teal-600" />
+                  <span className="w-8 h-8 rounded-lg bg-slate-100 group-hover:bg-cardinal-50 flex items-center justify-center transition-colors">
+                    <Mail size={14} className="text-slate-500 group-hover:text-cardinal-600" />
                   </span>
                   {siteConfig.email}
                 </a>
@@ -48,10 +48,10 @@ export default function ContactPage() {
                     href={siteConfig.socials.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-slate-600 hover:text-teal-600 transition-colors group"
+                    className="flex items-center gap-3 text-slate-600 hover:text-cardinal-600 transition-colors group"
                   >
-                    <span className="w-8 h-8 rounded-lg bg-slate-100 group-hover:bg-teal-50 flex items-center justify-center transition-colors">
-                      <Globe size={14} className="text-slate-500 group-hover:text-teal-600" />
+                    <span className="w-8 h-8 rounded-lg bg-slate-100 group-hover:bg-cardinal-50 flex items-center justify-center transition-colors">
+                      <Globe size={14} className="text-slate-500 group-hover:text-cardinal-600" />
                     </span>
                     @menameds (Instagram)
                   </a>

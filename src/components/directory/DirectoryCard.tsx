@@ -40,7 +40,7 @@ export default function DirectoryCard({ entry }: DirectoryCardProps) {
             </h3>
           </div>
           {entry.featured && (
-            <span className="shrink-0 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-teal-50 text-teal-700 border border-teal-100">
+            <span className="shrink-0 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-cardinal-50 text-cardinal-700 border border-cardinal-100">
               Featured
             </span>
           )}
@@ -83,7 +83,7 @@ export default function DirectoryCard({ entry }: DirectoryCardProps) {
                 rel="noopener noreferrer"
                 aria-label={`Visit ${entry.title} website`}
                 className={cn(
-                  "flex items-center gap-1 text-xs font-medium text-teal-600 hover:text-teal-800 transition-colors"
+                  "flex items-center gap-1 text-xs font-medium text-cardinal-600 hover:text-cardinal-800 transition-colors"
                 )}
               >
                 Visit <ExternalLink size={11} />

@@ -13,7 +13,7 @@ export default function CTASection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <p className="text-xs font-semibold uppercase tracking-widest text-teal-400 mb-3">
+          <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-400 mb-3">
             Join the community
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight leading-tight">
@@ -25,7 +25,7 @@ export default function CTASection() {
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/get-involved"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-teal-500 text-white font-semibold text-sm hover:bg-teal-400 transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-cardinal-500 text-white font-semibold text-sm hover:bg-cardinal-400 transition-colors"
             >
               Get Involved
             </Link>

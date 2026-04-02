@@ -18,7 +18,7 @@ const pathways = [
     description:
       "Help organize and run Discovery Days, the Expo, and community events. Great for medical students at any year.",
     audience: "Stanford medical students",
-    color: "teal",
+    color: "cardinal",
   },
   {
     icon: Users,
@@ -34,7 +34,7 @@ const pathways = [
     description:
       "Bring your organization, research initiative, or program into partnership with MENAMeds for events, panels, or joint programming.",
     audience: "Organizations, researchers, faculty",
-    color: "teal",
+    color: "cardinal",
   },
   {
     icon: PlusCircle,
@@ -51,13 +51,13 @@ const pathways = [
     description:
       "Stay in the loop on events, opportunities, and community updates from MENAMeds and our Bay Area partners.",
     audience: "Students, community members, supporters",
-    color: "teal",
+    color: "cardinal",
     anchor: "mailing",
   },
 ];
 
 const colorStyles: Record<string, { icon: string; bg: string; border: string }> = {
-  teal: { icon: "text-teal-600", bg: "bg-teal-50", border: "border-teal-100" },
+  cardinal: { icon: "text-cardinal-600", bg: "bg-cardinal-50", border: "border-cardinal-100" },
   amber: { icon: "text-amber-600", bg: "bg-amber-50", border: "border-amber-100" },
 };
 
@@ -68,7 +68,7 @@ export default function GetInvolvedPage() {
       <div className="bg-slate-900 py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <p className="text-xs font-semibold uppercase tracking-widest text-teal-400 mb-3">
+            <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-400 mb-3">
               Get Involved
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight mb-5">

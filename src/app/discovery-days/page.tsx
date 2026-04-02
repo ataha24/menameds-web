@@ -16,10 +16,10 @@ export default function DiscoveryDaysPage() {
   return (
     <div className="pt-16">
       {/* Hero */}
-      <div className="bg-gradient-to-br from-slate-900 via-teal-950 to-slate-900 py-24 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gradient-to-br from-slate-900 via-cardinal-950 to-slate-900 py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <p className="text-xs font-semibold uppercase tracking-widest text-teal-400 mb-3">
+            <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-400 mb-3">
               Annual Initiative
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight mb-6">
@@ -31,7 +31,7 @@ export default function DiscoveryDaysPage() {
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
                 href="/get-involved"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-teal-500 text-white font-semibold text-sm hover:bg-teal-400 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-cardinal-500 text-white font-semibold text-sm hover:bg-cardinal-400 transition-colors"
               >
                 Get Involved
               </Link>
@@ -78,7 +78,7 @@ export default function DiscoveryDaysPage() {
                   { label: "Cost", value: "Free — lunch, materials, and travel support provided" },
                 ].map((item) => (
                   <div key={item.label} className="bg-slate-50 rounded-xl p-4 border border-slate-100">
-                    <p className="text-xs font-semibold text-teal-600 mb-1">{item.label}</p>
+                    <p className="text-xs font-semibold text-cardinal-600 mb-1">{item.label}</p>
                     <p className="text-sm text-slate-700 leading-snug">{item.value}</p>
                   </div>
                 ))}
@@ -106,7 +106,7 @@ export default function DiscoveryDaysPage() {
                 <div className="bg-white rounded-xl border border-slate-100 shadow-sm p-5 flex flex-col sm:flex-row gap-4">
                   <div className="shrink-0 sm:w-40">
                     {item.time && (
-                      <span className="flex items-center gap-1.5 text-xs font-medium text-teal-600">
+                      <span className="flex items-center gap-1.5 text-xs font-medium text-cardinal-600">
                         <Clock size={12} /> {item.time}
                       </span>
                     )}
@@ -171,7 +171,7 @@ export default function DiscoveryDaysPage() {
             ].map((item, i) => (
               <FadeIn key={item.role} delay={i * 0.1}>
                 <div className="bg-slate-50 rounded-xl border border-slate-100 p-6 h-full">
-                  <p className="text-xs font-semibold uppercase tracking-widest text-teal-600 mb-2">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-600 mb-2">
                     {item.role}
                   </p>
                   <p className="text-sm text-slate-600 leading-relaxed mb-3">{item.description}</p>
@@ -184,7 +184,7 @@ export default function DiscoveryDaysPage() {
             <div className="mt-8 text-center">
               <Link
                 href="/get-involved"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-teal-600 text-white font-semibold text-sm hover:bg-teal-700 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-cardinal-600 text-white font-semibold text-sm hover:bg-cardinal-700 transition-colors"
               >
                 Sign Up to Volunteer or Mentor →
               </Link>

@@ -20,7 +20,7 @@ export default function ContactForm() {
             type="text"
             autoComplete="name"
             required
-            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors"
             placeholder="Your name"
           />
         </div>
@@ -33,7 +33,7 @@ export default function ContactForm() {
             type="email"
             autoComplete="email"
             required
-            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+            className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors"
             placeholder="you@email.com"
           />
         </div>
@@ -44,7 +44,7 @@ export default function ContactForm() {
         </label>
         <select
           id="c-subject"
-          className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors bg-white"
+          className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors bg-white"
         >
           <option value="">Select a topic</option>
           <option>Discovery Days — volunteering or mentorship</option>
@@ -63,13 +63,13 @@ export default function ContactForm() {
           id="c-message"
           rows={5}
           required
-          className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none"
+          className="w-full px-3 py-2.5 rounded-lg border border-slate-200 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors resize-none"
           placeholder="How can we help?"
         />
       </div>
       <button
         type="submit"
-        className="w-full py-3 rounded-lg bg-teal-600 text-white font-semibold text-sm hover:bg-teal-700 transition-colors"
+        className="w-full py-3 rounded-lg bg-cardinal-600 text-white font-semibold text-sm hover:bg-cardinal-700 transition-colors"
       >
         Send Message
       </button>
@@ -92,11 +92,11 @@ export function NewsletterForm() {
           type="email"
           placeholder="your@email.com"
           aria-label="Email for newsletter"
-          className="flex-1 sm:w-52 px-3 py-2.5 rounded-lg border border-slate-700 bg-slate-800 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+          className="flex-1 sm:w-52 px-3 py-2.5 rounded-lg border border-slate-700 bg-slate-800 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-cardinal-500 focus:border-cardinal-500 transition-colors"
         />
         <button
           type="submit"
-          className="shrink-0 px-4 py-2.5 rounded-lg bg-teal-500 text-white font-semibold text-sm hover:bg-teal-400 transition-colors"
+          className="shrink-0 px-4 py-2.5 rounded-lg bg-cardinal-500 text-white font-semibold text-sm hover:bg-cardinal-400 transition-colors"
         >
           Subscribe
         </button>

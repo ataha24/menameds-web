@@ -39,7 +39,7 @@ export default function Navbar() {
       >
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="relative w-9 h-9 rounded-full overflow-hidden ring-2 ring-teal-600/20 group-hover:ring-teal-600/50 transition-all">
+          <div className="relative w-9 h-9 rounded-full overflow-hidden ring-2 ring-cardinal-600/20 group-hover:ring-cardinal-600/50 transition-all">
             <Image
               src="/logo.png"
               alt="MENAMeds logo"
@@ -49,7 +49,7 @@ export default function Navbar() {
             />
           </div>
           <span className="font-semibold text-slate-900 text-[15px] tracking-tight">
-            MENA<span className="text-teal-600">Meds</span>
+            MENA<span className="text-cardinal-600">Meds</span>
           </span>
         </Link>
 
@@ -64,7 +64,7 @@ export default function Navbar() {
                   className={cn(
                     "px-3 py-1.5 rounded-md text-sm font-medium transition-colors",
                     isActive
-                      ? "text-teal-700 bg-teal-50"
+                      ? "text-cardinal-700 bg-cardinal-50"
                       : "text-slate-600 hover:text-slate-900 hover:bg-slate-50"
                   )}
                   aria-current={isActive ? "page" : undefined}
@@ -80,7 +80,7 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-3">
           <Link
             href="/get-involved"
-            className="px-4 py-1.5 rounded-md text-sm font-semibold bg-teal-600 text-white hover:bg-teal-700 transition-colors"
+            className="px-4 py-1.5 rounded-md text-sm font-semibold bg-cardinal-600 text-white hover:bg-cardinal-700 transition-colors"
           >
             Get Involved
           </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
                       className={cn(
                         "block px-3 py-2 rounded-md text-sm font-medium transition-colors",
                         isActive
-                          ? "text-teal-700 bg-teal-50"
+                          ? "text-cardinal-700 bg-cardinal-50"
                           : "text-slate-600 hover:text-slate-900 hover:bg-slate-50"
                       )}
                       aria-current={isActive ? "page" : undefined}
@@ -130,7 +130,7 @@ export default function Navbar() {
               <li className="pt-2">
                 <Link
                   href="/get-involved"
-                  className="block px-3 py-2 rounded-md text-sm font-semibold bg-teal-600 text-white hover:bg-teal-700 text-center transition-colors"
+                  className="block px-3 py-2 rounded-md text-sm font-semibold bg-cardinal-600 text-white hover:bg-cardinal-700 text-center transition-colors"
                 >
                   Get Involved
                 </Link>

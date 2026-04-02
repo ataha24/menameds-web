@@ -13,7 +13,7 @@ const initiatives = [
     description:
       "A hands-on day at Stanford Medicine where Bay Area MENA students explore clinical skills, meet physician mentors, and discover pathways into healthcare.",
     href: "/discovery-days",
-    accent: "teal",
+    accent: "cardinal",
     tags: ["Mentorship", "Clinical Exposure", "MENA Youth"],
   },
   {
@@ -29,11 +29,11 @@ const initiatives = [
 ];
 
 const accentStyles: Record<string, { bg: string; text: string; tag: string; arrow: string }> = {
-  teal: {
-    bg: "bg-teal-600",
-    text: "text-teal-600",
-    tag: "bg-teal-50 text-teal-700 border-teal-100",
-    arrow: "group-hover:bg-teal-600",
+  cardinal: {
+    bg: "bg-cardinal-600",
+    text: "text-cardinal-600",
+    tag: "bg-cardinal-50 text-cardinal-700 border-cardinal-100",
+    arrow: "group-hover:bg-cardinal-600",
   },
   amber: {
     bg: "bg-amber-500",

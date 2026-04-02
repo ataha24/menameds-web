@@ -31,7 +31,7 @@ export default function MapPlaceholder() {
       ].map((pos, i) => (
         <div
           key={i}
-          className="absolute w-5 h-5 bg-teal-500 rounded-full border-2 border-white shadow flex items-center justify-center"
+          className="absolute w-5 h-5 bg-cardinal-500 rounded-full border-2 border-white shadow flex items-center justify-center"
           style={{ top: pos.top, left: pos.left }}
           aria-hidden="true"
         >
@@ -40,7 +40,7 @@ export default function MapPlaceholder() {
       ))}
 
       <div className="relative z-10 text-center">
-        <MapPin size={28} className="text-teal-600 mx-auto mb-2" />
+        <MapPin size={28} className="text-cardinal-600 mx-auto mb-2" />
         <p className="text-sm font-semibold text-slate-700">Interactive Map</p>
         <p className="text-xs text-slate-500 max-w-xs px-4">
           Coming soon — Mapbox integration will show Bay Area MENA health organizations, clinics, and community resources.

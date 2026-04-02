@@ -63,7 +63,7 @@ export default function DirectoryFilters({ filters, onChange }: DirectoryFilters
           placeholder="Search organizations, clinics, programs…"
           value={filters.search}
           onChange={(e) => set("search", e.target.value)}
-          className="pl-9 bg-white border-slate-200 focus-visible:ring-teal-500"
+          className="pl-9 bg-white border-slate-200 focus-visible:ring-cardinal-500"
           aria-label="Search directory"
         />
       </div>
@@ -81,8 +81,8 @@ export default function DirectoryFilters({ filters, onChange }: DirectoryFilters
                 className={cn(
                   "text-xs px-3 py-1 rounded-full border font-medium transition-colors",
                   filters.category === c.value
-                    ? "bg-teal-600 text-white border-teal-600"
-                    : "bg-white text-slate-600 border-slate-200 hover:border-teal-400 hover:text-teal-700"
+                    ? "bg-cardinal-600 text-white border-cardinal-600"
+                    : "bg-white text-slate-600 border-slate-200 hover:border-cardinal-400 hover:text-cardinal-700"
                 )}
               >
                 {c.label}

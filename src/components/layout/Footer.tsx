@@ -15,7 +15,7 @@ export default function Footer() {
                 <Image src="/logo.png" alt="MENAMeds" fill className="object-cover" sizes="32px" />
               </div>
               <span className="font-semibold text-white text-sm tracking-tight">
-                MENA<span className="text-teal-400">Meds</span>
+                MENA<span className="text-cardinal-400">Meds</span>
               </span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
@@ -28,7 +28,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
-                  className="p-2 rounded-md bg-slate-800 hover:bg-teal-600 text-slate-400 hover:text-white transition-colors"
+                  className="p-2 rounded-md bg-slate-800 hover:bg-cardinal-600 text-slate-400 hover:text-white transition-colors"
                 >
                   <Globe size={16} />
                 </a>
@@ -36,7 +36,7 @@ export default function Footer() {
               <a
                 href={`mailto:${siteConfig.email}`}
                 aria-label="Email"
-                className="p-2 rounded-md bg-slate-800 hover:bg-teal-600 text-slate-400 hover:text-white transition-colors"
+                className="p-2 rounded-md bg-slate-800 hover:bg-cardinal-600 text-slate-400 hover:text-white transition-colors"
               >
                 <Mail size={16} />
               </a>
@@ -71,7 +71,7 @@ export default function Footer() {
               <li>
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="hover:text-teal-400 transition-colors"
+                  className="hover:text-cardinal-400 transition-colors"
                 >
                   {siteConfig.email}
                 </a>
@@ -85,7 +85,7 @@ export default function Footer() {
             <div className="mt-6">
               <Link
                 href="/get-involved"
-                className="inline-flex items-center gap-1.5 text-sm font-semibold text-teal-400 hover:text-teal-300 transition-colors"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-cardinal-400 hover:text-cardinal-300 transition-colors"
               >
                 Get Involved →
               </Link>

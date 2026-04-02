@@ -52,7 +52,7 @@ export default function DirectoryClient() {
       <div className="bg-slate-900 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
-            <p className="text-xs font-semibold uppercase tracking-widest text-teal-400 mb-3">
+            <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-400 mb-3">
               Resource Directory
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight mb-4">
@@ -87,7 +87,7 @@ export default function DirectoryClient() {
               aria-pressed={view === "grid"}
               className={`p-2 rounded-md transition-colors ${
                 view === "grid"
-                  ? "bg-teal-50 text-teal-600"
+                  ? "bg-cardinal-50 text-cardinal-600"
                   : "text-slate-400 hover:text-slate-600"
               }`}
             >
@@ -99,7 +99,7 @@ export default function DirectoryClient() {
               aria-pressed={view === "map"}
               className={`p-2 rounded-md transition-colors ${
                 view === "map"
-                  ? "bg-teal-50 text-teal-600"
+                  ? "bg-cardinal-50 text-cardinal-600"
                   : "text-slate-400 hover:text-slate-600"
               }`}
             >
@@ -131,7 +131,7 @@ export default function DirectoryClient() {
               <p className="text-sm mt-2">Try clearing some filters or broadening your search.</p>
               <button
                 onClick={() => setFilters(DEFAULT_FILTERS)}
-                className="mt-4 text-sm text-teal-600 hover:text-teal-800 font-medium transition-colors"
+                className="mt-4 text-sm text-cardinal-600 hover:text-cardinal-800 font-medium transition-colors"
               >
                 Clear all filters
               </button>
@@ -160,8 +160,8 @@ export default function DirectoryClient() {
 
         {/* Suggest entry */}
         <FadeIn>
-          <div className="mt-14 bg-teal-50 border border-teal-100 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center gap-5">
-            <div className="p-3 bg-teal-600 rounded-xl">
+          <div className="mt-14 bg-cardinal-50 border border-cardinal-100 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center gap-5">
+            <div className="p-3 bg-cardinal-600 rounded-xl">
               <PlusCircle size={20} className="text-white" />
             </div>
             <div className="flex-1">
@@ -172,7 +172,7 @@ export default function DirectoryClient() {
             </div>
             <Link
               href="/get-involved#suggest"
-              className="shrink-0 inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-teal-600 text-white font-semibold text-sm hover:bg-teal-700 transition-colors"
+              className="shrink-0 inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-cardinal-600 text-white font-semibold text-sm hover:bg-cardinal-700 transition-colors"
             >
               Suggest an Entry
             </Link>

@@ -12,7 +12,7 @@ const items = [
 
 export default function StatsSection() {
   return (
-    <section className="bg-teal-600 py-14" aria-label="Impact statistics">
+    <section className="bg-cardinal-600 py-14" aria-label="Impact statistics">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {items.map((item, i) => (
@@ -27,7 +27,7 @@ export default function StatsSection() {
               <p className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
                 {item.value}
               </p>
-              <p className="mt-1 text-sm text-teal-100/80 font-medium">{item.label}</p>
+              <p className="mt-1 text-sm text-cardinal-100/80 font-medium">{item.label}</p>
             </motion.div>
           ))}
         </div>

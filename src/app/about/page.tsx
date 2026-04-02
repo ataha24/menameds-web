@@ -18,7 +18,7 @@ export default function AboutPage() {
       <div className="bg-slate-900 py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <p className="text-xs font-semibold uppercase tracking-widest text-teal-400 mb-3">
+            <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-400 mb-3">
               About MENAMeds
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight">
@@ -143,12 +143,12 @@ export default function AboutPage() {
               <FadeIn key={member.id} delay={i * 0.08}>
                 <div className="bg-white rounded-xl border border-slate-100 shadow-sm p-6 flex flex-col gap-4 h-full">
                   {/* Avatar placeholder */}
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center text-white font-bold text-lg">
+                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-cardinal-400 to-cardinal-600 flex items-center justify-center text-white font-bold text-lg">
                     {member.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold text-slate-900 text-sm">{member.name}</p>
-                    <p className="text-xs text-teal-600 font-medium mt-0.5">{member.role}</p>
+                    <p className="text-xs text-cardinal-600 font-medium mt-0.5">{member.role}</p>
                     {member.year && (
                       <p className="text-xs text-slate-400 mt-0.5">
                         {member.year} · {member.program}
@@ -159,7 +159,7 @@ export default function AboutPage() {
                   {member.email && (
                     <a
                       href={`mailto:${member.email}`}
-                      className="text-xs text-teal-600 hover:text-teal-800 transition-colors"
+                      className="text-xs text-cardinal-600 hover:text-cardinal-800 transition-colors"
                     >
                       {member.email}
                     </a>
@@ -172,16 +172,16 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-teal-600">
+      <section className="py-16 bg-cardinal-600">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn>
             <h2 className="text-2xl font-bold text-white mb-4">Ready to get involved?</h2>
-            <p className="text-teal-100 mb-8">
+            <p className="text-cardinal-100 mb-8">
               Whether you want to volunteer, mentor, collaborate, or just stay connected — we want to hear from you.
             </p>
             <Link
               href="/get-involved"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white text-teal-700 font-semibold text-sm hover:bg-teal-50 transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white text-cardinal-700 font-semibold text-sm hover:bg-cardinal-50 transition-colors"
             >
               Get Involved →
             </Link>

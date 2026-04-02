@@ -29,7 +29,7 @@ export default function SectionHeader({
       className={cn(center ? "text-center" : "", className)}
     >
       {eyebrow && (
-        <p className="text-xs font-semibold uppercase tracking-widest text-teal-600 mb-2">
+        <p className="text-xs font-semibold uppercase tracking-widest text-cardinal-600 mb-2">
           {eyebrow}
         </p>
       )}
