@@ -76,15 +76,12 @@ export default function Navbar() {
           })}
         </ul>
 
-        {/* CTA */}
-        <div className="hidden lg:flex items-center gap-3">
-          <Link
-            href="/get-involved"
-            className="px-4 py-1.5 rounded-md text-sm font-semibold bg-cardinal-600 text-white hover:bg-cardinal-700 transition-colors"
-          >
+        {/* CTA — hidden until full site launch */}
+        {/* <div className="hidden lg:flex items-center gap-3">
+          <Link href="/get-involved" className="px-4 py-1.5 rounded-md text-sm font-semibold bg-cardinal-600 text-white hover:bg-cardinal-700 transition-colors">
             Get Involved
           </Link>
-        </div>
+        </div> */}
 
         {/* Mobile toggle */}
         <button
