@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/data/config";
 import { cn } from "@/lib/utils";
+import { assetPath } from "@/lib/assetPath";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -41,7 +42,7 @@ export default function Navbar() {
         <Link href="/directory" className="flex items-center gap-3 group">
           <div className="relative w-11 h-11 rounded-full overflow-hidden ring-2 ring-cardinal-600/20 group-hover:ring-cardinal-600/50 transition-all shadow-sm">
             <Image
-              src="/logo.png"
+              src={assetPath("/logo.png")}
               alt="MENAMeds logo"
               fill
               className="object-cover"

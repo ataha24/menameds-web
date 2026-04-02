@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Globe, Mail } from "lucide-react";
 import { siteConfig, navLinks } from "@/data/config";
+import { assetPath } from "@/lib/assetPath";
 // Note: Stanford logo is intentionally not used here — we reference the affiliation
 // as plain text only to avoid any implication of official Stanford endorsement.
 
@@ -14,7 +15,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/directory" className="flex items-center gap-3 group">
               <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-white/10 group-hover:ring-cardinal-500/40 transition-all shadow">
-                <Image src="/logo.png" alt="MENAMeds" fill className="object-cover" sizes="48px" />
+                <Image src={assetPath("/logo.png")} alt="MENAMeds" fill className="object-cover" sizes="48px" />
               </div>
               <span className="font-semibold text-white text-sm tracking-tight leading-tight">
                 MENA<span className="text-cardinal-400">Meds</span>
