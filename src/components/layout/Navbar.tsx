@@ -38,18 +38,22 @@ export default function Navbar() {
         aria-label="Main navigation"
       >
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="relative w-9 h-9 rounded-full overflow-hidden ring-2 ring-cardinal-600/20 group-hover:ring-cardinal-600/50 transition-all">
+        <Link href="/directory" className="flex items-center gap-3 group">
+          <div className="relative w-11 h-11 rounded-full overflow-hidden ring-2 ring-cardinal-600/20 group-hover:ring-cardinal-600/50 transition-all shadow-sm">
             <Image
               src="/logo.png"
               alt="MENAMeds logo"
               fill
               className="object-cover"
-              sizes="36px"
+              sizes="44px"
+              priority
             />
           </div>
-          <span className="font-semibold text-slate-900 text-[15px] tracking-tight">
+          <span className="font-semibold text-slate-900 text-[15px] tracking-tight leading-tight">
             MENA<span className="text-cardinal-600">Meds</span>
+            <span className="block text-[10px] font-normal text-slate-400 tracking-wide">
+              Stanford Medicine
+            </span>
           </span>
         </Link>
 
@@ -124,14 +128,7 @@ export default function Navbar() {
                   </li>
                 );
               })}
-              <li className="pt-2">
-                <Link
-                  href="/get-involved"
-                  className="block px-3 py-2 rounded-md text-sm font-semibold bg-cardinal-600 text-white hover:bg-cardinal-700 text-center transition-colors"
-                >
-                  Get Involved
-                </Link>
-              </li>
+              {/* Get Involved CTA — hidden until full site launch */}
             </ul>
           </motion.div>
         )}

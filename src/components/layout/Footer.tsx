@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Globe, Mail } from "lucide-react";
 import { siteConfig, navLinks } from "@/data/config";
+// Note: Stanford logo is intentionally not used here — we reference the affiliation
+// as plain text only to avoid any implication of official Stanford endorsement.
 
 export default function Footer() {
   return (
@@ -10,12 +12,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2.5">
-              <div className="relative w-8 h-8 rounded-full overflow-hidden">
-                <Image src="/logo.png" alt="MENAMeds" fill className="object-cover" sizes="32px" />
+            <Link href="/directory" className="flex items-center gap-3 group">
+              <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-white/10 group-hover:ring-cardinal-500/40 transition-all shadow">
+                <Image src="/logo.png" alt="MENAMeds" fill className="object-cover" sizes="48px" />
               </div>
-              <span className="font-semibold text-white text-sm tracking-tight">
+              <span className="font-semibold text-white text-sm tracking-tight leading-tight">
                 MENA<span className="text-cardinal-400">Meds</span>
+                <span className="block text-[10px] font-normal text-slate-500 tracking-wide">
+                  Stanford Medicine
+                </span>
               </span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
@@ -93,19 +98,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+        <div className="mt-12 pt-6 border-t border-slate-800">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} MENAMeds at Stanford Medicine. A student group within SUMMA.
+            © {new Date().getFullYear()} MENAMeds · A student group within SUMMA at Stanford University School of Medicine.
+            Not an official Stanford University publication.
           </p>
-          <div className="flex items-center gap-2">
-            <Image
-              src="/stanford-logo.png"
-              alt="Stanford University"
-              width={90}
-              height={20}
-              className="opacity-30 brightness-0 invert"
-            />
-          </div>
         </div>
       </div>
     </footer>
