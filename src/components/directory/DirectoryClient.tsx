@@ -1,8 +1,39 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Link from "next/link";
 import { LayoutGrid, List, PlusCircle } from "lucide-react";
+
+const SUGGEST_ENTRY_URL =
+  "https://github.com/ataha24/menameds-web/issues/new?" +
+  new URLSearchParams({
+    title: "Directory Submission: [Organization Name]",
+    body: [
+      "## Directory Entry Submission",
+      "",
+      "Please fill out the fields below and submit. We'll review and add it to the directory.",
+      "",
+      "**Organization / Resource Name:**",
+      "",
+      "**Short Description (1–2 sentences):**",
+      "",
+      "**Category:** (student-org / community-org / clinic / advocacy / research / faculty-mentor / event-program)",
+      "",
+      "**Focus Area(s):** (health / mentorship / advocacy / research / community)",
+      "",
+      "**City:**",
+      "",
+      "**Affiliation:** (Stanford / Community / Both)",
+      "",
+      "**Website:**",
+      "",
+      "**Contact Email (optional):**",
+      "",
+      "**Tags (comma-separated keywords):**",
+      "",
+      "**Any other notes:**",
+    ].join("\n"),
+    labels: "directory-submission",
+  }).toString();
 import { motion, AnimatePresence } from "framer-motion";
 import { directoryEntries } from "@/data/directory";
 import DirectoryCard from "@/components/directory/DirectoryCard";
@@ -158,7 +189,7 @@ export default function DirectoryClient() {
           )}
         </AnimatePresence>
 
-        {/* Suggest entry */}
+        {/* Suggest entry — opens a pre-filled GitHub issue */}
         <FadeIn>
           <div className="mt-14 bg-cardinal-50 border border-cardinal-100 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center gap-5">
             <div className="p-3 bg-cardinal-600 rounded-xl">
@@ -167,15 +198,17 @@ export default function DirectoryClient() {
             <div className="flex-1">
               <p className="font-semibold text-slate-900">Know a resource we&apos;re missing?</p>
               <p className="text-sm text-slate-500 mt-1">
-                Help us grow the directory. Suggest a MENA health organization, mentor, clinic, community resource, or initiative.
+                Help us grow the directory. Submit an organization, clinic, mentor, or community resource and we&apos;ll review it.
               </p>
             </div>
-            <Link
-              href="/get-involved#suggest"
+            <a
+              href={SUGGEST_ENTRY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="shrink-0 inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-cardinal-600 text-white font-semibold text-sm hover:bg-cardinal-700 transition-colors"
             >
               Suggest an Entry
-            </Link>
+            </a>
           </div>
         </FadeIn>
       </div>
