@@ -37,20 +37,6 @@ export const directoryEntries: DirectoryEntry[] = [
     imagePlaceholder: "#2D6A4F",
   },
   {
-    id: "3",
-    title: "Arab Cultural Association — Stanford",
-    description:
-      "Student organization at Stanford University celebrating Arab culture and heritage through events, advocacy, and community dialogue. Partner organization for MENA health outreach.",
-    category: "student-org",
-    focus: ["community", "advocacy"],
-    tags: ["Stanford", "Arab", "cultural", "undergraduate"],
-    city: "Stanford",
-    affiliation: "stanford",
-    audience: ["premeds", "community"],
-    featured: false,
-    imagePlaceholder: "#7D4F50",
-  },
-  {
     id: "4",
     title: "Arab Cultural & Community Center of Northern California",
     description:
@@ -64,20 +50,6 @@ export const directoryEntries: DirectoryEntry[] = [
     website: "https://acccofc.org",
     featured: true,
     imagePlaceholder: "#B5838D",
-  },
-  {
-    id: "5",
-    title: "Tibu Health",
-    description:
-      "Multilingual telehealth platform expanding access to culturally competent care for Arabic-speaking and immigrant populations. Based in the Bay Area.",
-    category: "clinic",
-    focus: ["health"],
-    tags: ["telehealth", "Arabic", "language access", "Bay Area", "immigrant health"],
-    city: "Oakland",
-    affiliation: "community",
-    audience: ["community", "all"],
-    featured: false,
-    imagePlaceholder: "#457B9D",
   },
   {
     id: "6",
@@ -95,34 +67,6 @@ export const directoryEntries: DirectoryEntry[] = [
     imagePlaceholder: "#3D5A80",
   },
   {
-    id: "7",
-    title: "Stanford MENA Health Program",
-    description:
-      "Research and education initiative at Stanford investigating health disparities among Middle Eastern and North African populations in the United States. Seeks student collaborators.",
-    category: "research",
-    focus: ["research", "health"],
-    tags: ["Stanford", "research", "health disparities", "MENA"],
-    city: "Stanford",
-    affiliation: "stanford",
-    audience: ["medical-students", "premeds"],
-    featured: true,
-    imagePlaceholder: "#8B2FC9",
-  },
-  {
-    id: "8",
-    title: "National Arab American Medical Association — Bay Area Chapter",
-    description:
-      "Professional association of Arab American physicians and medical students in the Bay Area. Offers mentorship, networking, and advocacy for MENA representation in medicine.",
-    category: "advocacy",
-    focus: ["mentorship", "advocacy"],
-    tags: ["NAAMA", "physicians", "Arab American", "professional", "mentorship"],
-    city: "San Jose",
-    affiliation: "community",
-    audience: ["medical-students", "premeds"],
-    featured: false,
-    imagePlaceholder: "#5C4033",
-  },
-  {
     id: "9",
     title: "Islamic Networks Group (ING)",
     description:
@@ -138,20 +82,6 @@ export const directoryEntries: DirectoryEntry[] = [
     imagePlaceholder: "#2A6F97",
   },
   {
-    id: "10",
-    title: "Bay Area Health Equity Coalition — MENA Working Group",
-    description:
-      "Cross-sector coalition working on disaggregated data collection and health policy advocacy for MENA communities in California. Active in Sacramento and Bay Area.",
-    category: "advocacy",
-    focus: ["advocacy", "research", "health"],
-    tags: ["health equity", "policy", "data", "California", "MENA"],
-    city: "Oakland",
-    affiliation: "community",
-    audience: ["community", "all"],
-    featured: false,
-    imagePlaceholder: "#1B7A34",
-  },
-  {
     id: "11",
     title: "Palo Alto Medical Foundation — Community Health",
     description:
@@ -165,20 +95,6 @@ export const directoryEntries: DirectoryEntry[] = [
     website: "https://pamf.org",
     featured: false,
     imagePlaceholder: "#344E41",
-  },
-  {
-    id: "12",
-    title: "Discovery Days — MENA Health Track",
-    description:
-      "Annual Stanford Medicine outreach event with a dedicated MENA health track. Connects Bay Area youth with MENA physician mentors and introduces careers in medicine.",
-    category: "event-program",
-    focus: ["mentorship", "community", "health"],
-    tags: ["Discovery Days", "youth", "mentorship", "Stanford", "pipeline"],
-    city: "Stanford",
-    affiliation: "stanford",
-    audience: ["premeds", "community"],
-    featured: true,
-    imagePlaceholder: "#C77DFF",
   },
 
   // ── Volunteer opportunities sourced from "MENA-Related Volunteer Opportunities
