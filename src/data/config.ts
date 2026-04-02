@@ -27,8 +27,8 @@ export const stats: SiteStats = {
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Discovery Days", href: "/discovery-days" },
-  { label: "Expo", href: "/expo" },
+  // { label: "Discovery Days", href: "/discovery-days" }, // hidden until ready
+  // { label: "Expo", href: "/expo" },                     // hidden until ready
   { label: "Directory", href: "/directory" },
   { label: "Get Involved", href: "/get-involved" },
   { label: "Contact", href: "/contact" },

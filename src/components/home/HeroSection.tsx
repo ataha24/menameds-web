@@ -87,12 +87,7 @@ export default function HeroSection() {
             >
               Get Involved
             </Link>
-            <Link
-              href="/expo"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg text-slate-300 font-semibold text-sm hover:text-white transition-colors"
-            >
-              View Expo →
-            </Link>
+            {/* <Link href="/expo" ...>View Expo →</Link> hidden until ready */}
           </motion.div>
         </div>
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import HeroSection from "@/components/home/HeroSection";
 import StatsSection from "@/components/home/StatsSection";
-import FeaturedInitiatives from "@/components/home/FeaturedInitiatives";
+// import FeaturedInitiatives from "@/components/home/FeaturedInitiatives"; // hidden until Discovery Days & Expo are ready
 import FeaturedDirectory from "@/components/home/FeaturedDirectory";
 import CTASection from "@/components/home/CTASection";
 
@@ -14,7 +14,7 @@ export default function HomePage() {
     <>
       <HeroSection />
       <StatsSection />
-      <FeaturedInitiatives />
+      {/* <FeaturedInitiatives /> */}
       <FeaturedDirectory />
       <CTASection />
     </>
